@@ -1,0 +1,15 @@
+<div class="convert">
+  <div class="row">
+        <h3>Temperatur</h3>
+        <input type="number" [(ngModel)]="celsius" (input)="updateFromCelsius()"> °C =
+        <input type="number" [(ngModel)]="fahrenheit" (input)="updateFromFahrenheit()"> °F
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <h3>Längd</h3>
+    <input type="number" [(ngModel)]="meters" (input)="updateFromMeters()"> m =
+    <input type="number" [(ngModel)]="feet" (input)="updateFromFeet()"> ft
+  </div>
+</div>

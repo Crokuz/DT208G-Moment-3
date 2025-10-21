@@ -1,0 +1,17 @@
+.convert {
+  max-width: 400px;
+  margin-top: 2em;
+  padding: 1rem;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+.row {
+  margin: 1rem 0;
+}
+
+input {
+  width: 100px;
+  padding: 0.5em;
+  text-align: right;
+}
