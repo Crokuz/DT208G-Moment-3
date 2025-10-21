@@ -7,6 +7,7 @@ import { Component, signal } from '@angular/core';
     styleUrl: './quoter.css'
 })
 export class Quoter {
+    //Array som innehåller citat och vem som citeras
     //Samtliga citat kommer från dokumentären "Angular: The Documentary" på YouTube. Länk:https://www.youtube.com/watch?v=cRC9DlH45lA
     quotes = [
         { text: "Could you simplify web development by connecting data and UI directly?", author: "Miško Hevery, före detta projketledare för Angular" },
@@ -14,8 +15,10 @@ export class Quoter {
         { text: "A solution with developers in mind.", author: "Addy Osmani, Chef för Chrome Developer Experience på Google" }
     ];
 
+    //Deklarering av signal som dynamiskt ändrar innehåll
     randomQuote = signal(this.getRandomQuote());
 
+    //Metod för att hämta ett slumpmässigt citat
     private getRandomQuote() {
         const randomIndex = Math.floor(Math.random() * this.quotes.length);
         return this.quotes[randomIndex];
