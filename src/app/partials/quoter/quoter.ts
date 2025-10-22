@@ -1,3 +1,10 @@
+/*
+Författare: Leander Norberg
+Projektnamn: Moment 3
+Beskrivning: Praktisk laboration utvecklat i samband med kursen 
+Programmering i TypeScript (DT208G ) vid mittuniversitetet, VT2025 
+*/
+
 import { Component, signal } from '@angular/core';
 
 @Component({
