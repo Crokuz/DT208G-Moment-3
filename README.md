@@ -1,6 +1,6 @@
-# Moment3
+# Moment 3, DT208G
 
-Detta projekt var utvecklat med [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
+Detta projekt är utvecklat med [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
 
 Projektet är utvecklat i samband med kursen "Programmering i TypeScript” vid ­Mittuniversitetet i Sundsvall och är grunden för en laboration med syfte att ge grundläggande färdigheter inom utveckling av dynamiska, responsiva Angular-baserade applikationer.
 
